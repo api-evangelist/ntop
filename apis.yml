@@ -1,9 +1,31 @@
 aid: ntop
 name: nTop
-description: 'nTop is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  nTop (formerly nTopology) is computational design and engineering software for
+  advanced and additive manufacturing. Its field-driven, implicit modeling
+  engine lets engineers build reusable, logic-driven design workflows and
+  systematically explore hundreds of design variants with manufacturing
+  constraints, performance requirements, and simulation built in — spanning
+  lattices, conformal structures, design-for-additive-manufacturing, and
+  topology-informed optimization across aerospace, automotive, medical, and
+  industrial applications. Beyond the desktop application, nTop exposes a
+  developer surface: the nTop Core SDK (a native Windows DLL with C++, .NET, and
+  Python bindings for querying implicit bodies), nTop Automate for headless
+  workflow automation, extensive Mintlify-hosted documentation, and a public
+  documentation MCP server for agent-based retrieval.
 url: https://raw.githubusercontent.com/api-evangelist/ntop/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/g5181r9i/production/069fbd12b0f03c5edc56d199e6eab2d66940f5ba-1200x627.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Manufacturing
+- Computational Design
+- Additive Manufacturing
+- Engineering Software
+- 3D Modeling
+- CAD
+- Design Automation
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,40 @@ maintainers:
 common:
 - type: Website
   url: https://www.ntop.com/
+- type: DeveloperPortal
+  url: https://docs.ntop.com/
+- type: Documentation
+  url: https://docs.ntop.com/Product-Documentation/ntop/welcome
+- type: APIReference
+  url: https://docs.ntop.com/Product-Documentation/ntop-core/readme
+- type: GettingStarted
+  url: https://docs.ntop.com/Product-Documentation/ntop/_getting_started
+- type: ChangeLog
+  url: https://docs.ntop.com/Product-Documentation/ntop/release-notes/version-5.51
+- type: Support
+  url: https://support.ntop.com/hc/en-us
+- type: Blog
+  url: https://www.ntop.com/resources/blog/
+- type: GitHubOrganization
+  url: https://github.com/nTopology
+- type: SignUp
+  url: https://app.ntop.com/login
+- type: TermsOfService
+  url: https://www.ntop.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.ntop.com/privacy-policy/
+- type: MCPServer
+  url: mcp/ntop-mcp.yml
+- type: LLMsTxt
+  url: llms/ntop-llms.txt
+- type: Packages
+  url: packages/ntop-packages.yml
+- type: SDKs
+  url: packages/ntop-packages.yml
+- type: DomainSecurity
+  url: security/ntop-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

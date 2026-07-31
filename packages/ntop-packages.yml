@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: derived
+source: https://docs.ntop.com/Product-Documentation/ntop-core/readme
+notes: >-
+  nTop ships a first-party developer SDK, "nTop Core", as a native Windows DLL
+  exposing a small set of C functions (cdecl, ntop_core.h) for working with
+  implicit bodies exported from nTop. Official language bindings/examples are
+  provided for C++, C# (.NET), and Python. The library is distributed with the
+  product rather than published to a public package registry — as of 2026-07-20
+  no matching package was found on PyPI (ntop / ntopology -> 404) or NuGet, so
+  no registry URLs are recorded (no fabrication). Marked official:true because
+  nTop Core is authored and shipped by nTop.
+packages:
+  - language: cpp
+    registry: bundled
+    name: nTop Core (C++)
+    url: https://docs.ntop.com/Product-Documentation/ntop-core/examples/cpp
+    header: ntop_core.h
+    official: true
+  - language: dotnet
+    registry: bundled
+    name: nTop Core (.NET / C#)
+    url: https://docs.ntop.com/Product-Documentation/ntop-core/examples/dotnet
+    official: true
+  - language: python
+    registry: bundled
+    name: nTop Core (Python)
+    url: https://docs.ntop.com/Product-Documentation/ntop-core/examples/python
+    official: true

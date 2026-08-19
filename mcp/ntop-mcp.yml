@@ -9,20 +9,24 @@ server:
   url: https://docs.ntop.com/mcp
   protocol_version: '2024-11-05'
   hosting: Mintlify-hosted documentation MCP server
-  scope: >-
-    Read-only search and retrieval over the public nTop documentation site
-    (docs.ntop.com). Not a product/automation control plane — it answers
-    questions from published site content and exposes skill-guidance resources.
+  scope: Read-only search and retrieval over the public nTop documentation site (docs.ntop.com). Not a
+    product/automation control plane — it answers questions from published site content and exposes skill-guidance
+    resources.
 capabilities:
   tools: true
   resources: true
 tools:
-  - name: search_n_top
-    description: Search the nTop documentation site for relevant content.
-  - name: query_docs_filesystem_n_top
-    description: Query the nTop docs filesystem to retrieve specific pages/sections.
-  - name: submit_feedback
-    description: Report an incorrect, outdated, confusing, or incomplete docs page to the nTop docs team.
-notes: >-
-  Verified live on 2026-07-20 via MCP initialize + tools/list against
-  https://docs.ntop.com/mcp (serverInfo name "nTop", version 1.0.0).
+- name: search_n_top
+  description: Search the nTop documentation site for relevant content.
+- name: query_docs_filesystem_n_top
+  description: Query the nTop docs filesystem to retrieve specific pages/sections.
+- name: submit_feedback
+  description: Report an incorrect, outdated, confusing, or incomplete docs page to the nTop docs team.
+notes: Verified live on 2026-07-20 via MCP initialize + tools/list against https://docs.ntop.com/mcp (serverInfo
+  name "nTop", version 1.0.0).
+deployment:
+  mode: remote
+  verified: searched
+  tools: 3
+  checked: '2026-08-12'
+  source: catalog MCP census

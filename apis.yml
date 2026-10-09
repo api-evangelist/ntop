@@ -1,4 +1,4 @@
-aid: ntop
+aid: ntop-com
 name: nTop
 description: >-
   nTop (formerly nTopology) is computational design and engineering software for
@@ -13,7 +13,7 @@ description: >-
   Python bindings for querying implicit bodies), nTop Automate for headless
   workflow automation, extensive Mintlify-hosted documentation, and a public
   documentation MCP server for agent-based retrieval.
-url: https://raw.githubusercontent.com/api-evangelist/ntop/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/ntop-com/refs/heads/main/apis.yml
 deliveryModel:
   model: saas
   open_source: false
